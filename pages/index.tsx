@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         </div>
         <button
           onClick={() => {
-            window.location.href = process.env.SELL_URI || "";
+            window.location.href = process.env.NEXT_PUBLIC_DISCOUNT_URL as string;
           }}
           className={`flex b:rgb(64,45,102)|2px|solid bg:linear-gradient(#0716eccf,#4d70e2) cursor:pointer opacity:0.8 opacity:1:hover h:56 h:72@sm w:520@sm w:100% r:999 ai:center jc:center f:20 f:32@sm f:bold f:#f2f2f2 `}
         >
